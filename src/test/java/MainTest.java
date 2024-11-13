@@ -58,26 +58,26 @@ public class MainTest {
         assertEquals(new Person("Jane", "Doe", 13).isTeen(), true);
     }
 
-    @DisplayName("Wall sınıf değişkenleri doğru tipte mi ?")
+    @DisplayName("org.example.Wall sınıf değişkenleri doğru tipte mi ?")
     @Test
     public void testWallTypes() {
         assertThat(wall.getWidth(), instanceOf(Double.class));
         assertThat(wall.getHeight(), instanceOf(Double.class));
     }
 
-    @DisplayName("Wall getWidth metodu doğru çalışıyor mu ?")
+    @DisplayName("org.example.Wall getWidth metodu doğru çalışıyor mu ?")
     @Test
     public void testWallGetWidth() {
         assertEquals(wall.getWidth(), 10);
     }
 
-    @DisplayName("Wall getHeight metodu doğru çalışıyor mu ?")
+    @DisplayName("org.example.Wall getHeight metodu doğru çalışıyor mu ?")
     @Test
     public void testWallGetHeight() {
         assertEquals(wall.getHeight(), 10);
     }
 
-    @DisplayName("Wall setWidth metodu doğru çalışıyor mu ?")
+    @DisplayName("org.example.Wall setWidth metodu doğru çalışıyor mu ?")
     @Test
     public void testWallSetWidth() {
         wall.setWidth(20);
@@ -87,7 +87,7 @@ public class MainTest {
         assertEquals(wall.getWidth(), 0);
     }
 
-    @DisplayName("Wall setHeight metodu doğru çalışıyor mu ?")
+    @DisplayName("org.example.Wall setHeight metodu doğru çalışıyor mu ?")
     @Test
     public void testWallSetHeight() {
         wall.setHeight(20);
@@ -97,7 +97,7 @@ public class MainTest {
         assertEquals(wall.getHeight(), 0);
     }
 
-    @DisplayName("Wall GetArea metodu doğru çalışıyor mu ?")
+    @DisplayName("org.example.Wall GetArea metodu doğru çalışıyor mu ?")
     @Test
     public void testWallGetArea() {
         wall.setWidth(10);

@@ -35,13 +35,13 @@ System.out.println("LastName: " + person.getLastName());
 
 System.out.println("Age: " + person.getAge());
 
-### Wall Sınıfı
+### org.example.Wall Sınıfı
 
-* org.example paketi altında ```Wall``` isimli bir sınıf tanımlayınız.
+* org.example paketi altında ```org.example.Wall``` isimli bir sınıf tanımlayınız.
 * Sınıf için 2 tane ```instance variable``` tanımlayınız.
 * Bu iki sınıf değişkeni; ```width``` double olmalı, ```height``` double olmalı.
-* Wall sınıfı için bir adet ```constructor``` tanımlayınız. 2 parametreyi de set etmeli.
-* Wall sınıfı içerisine 5 tane metod ekleyiniz.
+* org.example.Wall sınıfı için bir adet ```constructor``` tanımlayınız. 2 parametreyi de set etmeli.
+* org.example.Wall sınıfı içerisine 5 tane metod ekleyiniz.
 * ```getWidth``` => width değerini dönmeli
 * ```getHeight``` => height değerini dönmeli.
 * ```setWidth``` => bir parametre almalı ve aldığı parametreyi width değerine eşitlemeli. Gelen parametre 0'dan küçükse, width değerini 0'a eşitlemeli.
@@ -52,7 +52,7 @@ Aşağıdaki gibi test edebilirsiniz.
 
 INPUT
 
-Wall wall = new Wall(5,4);
+org.example.Wall wall = new org.example.Wall(5,4);
 
 System.out.println("area= " + wall.getArea());
 
